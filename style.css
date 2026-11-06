@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+    /* background-color: #0f1111; */
+}
+
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navLogo{
+    height: 50px;
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("amazon_logo.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    /* margin-top: 2px;*/
+    /* margin-left: 4px;  */
+}
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box2 */
+.font1{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+    align-items:center ;
+}
+
+.font2{
+    font-size:1rem;
+    margin-left: 2px;
+} 
+
+.add-icon{
+    display: flex;
+    align-items:center ;
+}
+
+/* Box 3*/
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#FFB95F;
+    width:620px;
+    height:40px;
+    border-radius: 8px; 
+}
+
+.nav-search:hover{
+    border: 2.5px solid #FFB95F;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border:none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color:#0f1111;
+}
+
+/* box4 */
+.region-select{
+    background-color: #0f1111;
+    color:white;
+    border: none;
+    height: 45px;
+    width:45px
+}
+
+/* Box 5 & 6 */
+span{
+    font-size: 0.75rem;
+    margin-left: 4px;
+}
+
+.nav-second{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+
+.select{
+    color:white;
+    background-color: #0f1111;
+    border:none;
+}
+
+/* Box7 */
+.cart i{
+    font-size: 30px;
+}
+
+.cart{
+    font-size:0.8rem;
+    font-weight: 700;
+}
+
+/* ________________________pannel___________________________ */
+/* box1 */
+.pannel{
+    background-color: #232F3E;
+    height: 39px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    gap:22px
+}
+
+.pannelAll{
+    height:39px;
+    width: 50px;
+    text-align: center;
+}
+.pannelAll i{
+    color:white;
+    text-align: center;
+}
+.pannelAll i{
+    margin-top: 28%;
+    text-align: center;
+}
+
+/* For all Boxes 2 to last second  */
+.pannel-All_BOX{
+    margin-top: 10px;
+    height:28px;
+}
+
+.aanchor1{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 300; 
+}
+
+
+.combine{
+    justify-content: none;
+}
+
+/* Box9 last  */
+.pannel-ElectronicsItem{
+    margin-top: 10px;
+    height:28px;
+    margin-left: 600px;
+
+}
+.aanchor2{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;  
+}
+
+/* _________________________Hero Section__________________________ */
+.hero_section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.hero_msg{
+    background-color: white;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width:95%;
+    margin-bottom: 25px;
+}
+
+.hero_msg a{
+    color:#007185;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+/* ______________________Boxes of images_________________________________ */
+
+/* Box1 */
+.shopSection{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.box{
+    height: 442px;
+    width: 276px;
+    border-radius: 16px;
+}
+.box1{
+    background-image: url(1_style.avif);
+    background-size: cover;
+}
+
+.box2{
+    background-image: url(2_style.avif);
+    background-size: cover;
+}
+
+.box3{
+    background-image: url(3_style.avif);
+    background-size: cover;
+}
+
+.box4{
+    background-image: url(4_style.avif);
+    background-size: cover;
+}
+
+.box5{
+    background-image: url(5_style.avif);
+    background-size: cover;
+}
+
+.h_for_box{
+    margin-top: 10px;
+    margin-left: 10px;
+    color:black;
+    text-decoration: none;
+}
+
+/* Box2  and box3*/
+.secondLine{
+    display: flex;
+}
+.same{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 460px;
+    width: 425px;
+    border-radius: 16px;
+    border: 2px solid #D5D9D9;
+    justify-content: space-evenly;
+}
+
+.imageBox1{
+    height:140px;
+    width: 140px;
+    background-size: cover;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.noDeco{
+    margin-left: 24px;
+    margin-top: 5px;
+}
+.same a{
+    color:black;
+    text-decoration: none;
+}
+
+.imageBox2{
+    height:140px;
+    width: 140px;
+    background-size: cover;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.connect{
+    display: flex;
+}
+
+/* -----------------Lower  Content-------------------  */
+.lowerC{
+    margin-top: 50px;
+    height: 125px;
+    padding: 20px;
+    border: 2px solid #D5D9D9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 25px; ;
+    width: 200px;
+    padding: 4px 11px;
+    background-color:#FFD814;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    /* to set sing in text in center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newCustomer{
+    font-size: 0.75rem;
+    margin-top: 3.5px;
+}
+
+/* -----------------------Copy RIght part-------------------- */
+.cBox1{
+    height:50px;
+    padding:0px 15px;
+    background-color: #37475A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cBox1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.cBox2{
+    height:315px;
+    background-color:#232F3E ;
+    color:white;
+    display: flex;
+    justify-content: center;
+        align-items: flex-start;
+            gap: 80px;
+            padding-top: 50px;
+}
+
+.cBox2 p {
+    width: 215px;
+    /* margin: 0; */
+}
+.cBox2 b {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.cBox2 a{
+    color:rgba(255, 255, 255, 0.718);
+    text-decoration: none;
+    line-height: 1.6; /* important the height between line can be controll by this  */
+}
+
+.cBox2 a:hover{
+    text-decoration: underline;
+}
+
+
+.foot_PANEL3{
+    height: 100px;
+    background-color: #232F3E;
+    border-top: 1px solid #3A4553;
+
+}
+
+/* ---------------------Logo Designing-------------------------- */
+.logo2{
+    background-image: url("amazon_logo.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    /* align-items: center; */
+}
+
+.foot_PANEL3{
+    display:flex;
+    justify-content: center;
+    align-items:center ;  
+    
+}
+
+.foot_PANEL3 a{
+    text-decoration: none;
+    color:#DDDDDD;
+}
+
+.div1{
+    height:30px;
+    width:131px;
+    margin:0px 4px 0px 0px;
+    padding: 6px 18px 6px 8px;
+    border:1px solid #848688;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.div2{
+    height:30px;
+    width:150px;
+    margin:0px 4px 0px 0px;
+    padding: 6px 18px 6px 8px;
+    border:1px solid #848688;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div3{    
+    height:30px;
+    width:131px;
+    margin:0px 4px 0px 0px;
+    padding: 6px 18px 6px 8px;
+    border:1px solid #848688;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*---------------------------- Last seconf footer designe------------------------------------ */
+
+/* .Last2{
+    height:350px;
+    background-color: #131A22;
+} */
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.footer {
+    background-color: #131a22;
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    height: 320px;
+}
+
+.links div {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.links a {
+    color: #DDDDDD;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.links small {
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bottom a {
+    color: #DDDDDD;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 0.8rem;
+}
+
+.bottom a:hover{
+    text-decoration: underline;
+}
+
+.bottom p {
+    color: #DDDDDD;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
